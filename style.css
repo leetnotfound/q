@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+body{
+    background-color: rgb(142, 160, 160);
+    font-size: 20px;
+    color: rgb(62, 37, 68);
+    font-family: Source Sans Pro, Helvetica, sans-serif;
+}
+p{
+    color: rgba(160, 160, 160, 0.925);
+    font-style: inherit;
+}
+#типаИмя{
+    color: rgb(140, 104, 224);
+}
+/* .main{
+    background-color: lightslategray;
+} */
+.desc img{
+    /* position: fixed; */
+    margin-top: 21px;
+    margin-left: 18px;
+    border: 3px solid purple ;
+    padding: 7px 8px;
+    background-color: rgba(204, 0, 0, 0.432);
+    border-radius: 15px;
+    box-shadow: 6px 7px 19px 3px rgb(255, 255, 255);
+}
+.desc{
+    /* display: flex; */
+
+}
+.desc img:hover{
+    background-color: burlywood;
+}
+.desc p{
+    color: rgb(23, 23, 77);
+    font-style: bold;
+}
+.main{
+    width: 96%;
+    margin:auto
+}
